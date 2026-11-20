@@ -1,0 +1,13 @@
+{
+  "tests": 484,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 42.87,
+  "evidence": [
+    "test-results.xml",
+    "runner-tests.xml"
+  ],
+  "mode": "deduplicated full suite plus targeted concurrency regression",
+  "passed": 484
+}

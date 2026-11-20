@@ -1,0 +1,49 @@
+{
+  "python": "3.12.16 (main, Oct 26 2026, 14:10:56) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\luoyw\\work\\github\\sentrysearch\\.venv\\Scripts\\python.exe",
+  "packages": {
+    "sentrysearch": "0.1.0",
+    "chromadb": "1.5.5",
+    "torch": "2.6.0+cu124",
+    "torchvision": "0.21.0+cu124",
+    "transformers": "5.14.1",
+    "qwen-vl-utils": "0.0.14",
+    "av": "17.0.0",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "runtime_checks": {
+    "python": "3.12.16 (main, Oct 26 2026, 14:10:56) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_memory_GiB": 23.99951171875,
+    "transformers": "5.14.1",
+    "cuda_matrix_smoke": true,
+    "ffmpeg_video_smoke": true,
+    "duration": 1.0
+  },
+  "test_validation": {
+    "tests": 484,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 42.87,
+    "evidence": [
+      "test-results.xml",
+      "runner-tests.xml"
+    ],
+    "mode": "deduplicated full suite plus targeted concurrency regression",
+    "passed": 484
+  },
+  "cuda": true,
+  "torch_cuda": "12.4",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "ffmpeg": "C:\\Users\\luoyw\\work\\github\\sentrysearch\\.venv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+  "video_reader": "torchvision",
+  "query_dimensions": 768,
+  "verified_at": "2026-11-19T03:03:30.234473+00:00",
+  "video_dimensions": 768,
+  "vector_store_smoke": true,
+  "model": "qwen2b",
+  "backend": "local"
+}

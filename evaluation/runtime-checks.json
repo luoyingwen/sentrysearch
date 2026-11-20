@@ -1,0 +1,11 @@
+{
+  "python": "3.12.16 (main, Oct 26 2026, 14:10:56) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "gpu_memory_GiB": 23.99951171875,
+  "transformers": "5.14.1",
+  "cuda_matrix_smoke": true,
+  "ffmpeg_video_smoke": true,
+  "duration": 1.0
+}

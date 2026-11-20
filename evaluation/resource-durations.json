@@ -1,0 +1,402 @@
+[
+  {
+    "asset_id": "qvhighlights-sha256-bfb7ed3e70ef2d02e694333df68b0cc242543136988541bcacff67e4e4772e5f",
+    "source_filename": "-XfkpxoLVAI_210.0_360.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 150.0,
+    "latest_gt_start": 12.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-9f7620caa3dc940f5e9578284019c25ef6ebae68c0e38c6d86aac4c53050d1ef",
+    "source_filename": "-r7gdSD2xvs_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.024875,
+    "max_gt": 138.0,
+    "latest_gt_start": 122.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-bfb17bb527c3fd5fd22804dade156f6895edf998ba1423f9e812c685dc45c9d3",
+    "source_filename": "0SkdELRCIpc_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 94.0,
+    "latest_gt_start": 90.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-541a2023b439041fd8581c0037c0fe77a8a7f1d63e7a9a5ccddfc7b8d8b4fa7c",
+    "source_filename": "2YGUY_4d8D0_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 128.0,
+    "latest_gt_start": 122.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-549fc7377cb5f3735543f75f7a4785973af2e840cb4b7d431604d53b897b7d8b",
+    "source_filename": "4yY-cFoIYfM_210.0_360.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 94.0,
+    "latest_gt_start": 90.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-f0bba1d4037924cc0aec1c31248cf87f74e9c12913ead1e07520263d35758289",
+    "source_filename": "5BEfO88Olhk_360.0_510.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 90.0,
+    "latest_gt_start": 84.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-30ec219123f4388db3556a16ba58dac95ff6df218ddfc2139fe7d20b8daeeb41",
+    "source_filename": "7exVohbA524_210.0_360.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 68.0,
+    "latest_gt_start": 66.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-5f0f108c2b0ff58207bd440448e66377e726c0663b5e1a24f0488fa7ed01ef2c",
+    "source_filename": "8vmxYRgWt7s_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 122.0,
+    "latest_gt_start": 114.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-461eb645c35d3bf81c83fba6d87c891565002bec19a177aeb90d8153aa05da3a",
+    "source_filename": "9V7Jp9K_3AE_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 140.0,
+    "latest_gt_start": 138.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-fafd184381c28e9991a204a34019e4c0ff14440932736f53c7096a6e69438952",
+    "source_filename": "9fJEFi3ccwI_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 126.0,
+    "latest_gt_start": 112.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-e6460a21b21bc84408be1746285c4851479539229fc17bd25eb4ede77743ede6",
+    "source_filename": "AV9a_rRCOaU_510.0_660.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 150.0,
+    "latest_gt_start": 140.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-a738bef2a8957e909a43f0bee6a0aee6871c03be6c82edc57550494724ac043d",
+    "source_filename": "BwzSUld6bS8_210.0_360.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 148.0,
+    "latest_gt_start": 144.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-15ef2738e023b8825a5b850c2bb89351e2f4fadbe084dda309fb31032eb8ca4f",
+    "source_filename": "ChCi1CGFt50_210.0_360.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.024875,
+    "max_gt": 20.0,
+    "latest_gt_start": 2.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-259c2f852a1a6cc262c52129cd022dc44f5c0973c6e9c3c33d2a6df791c3403f",
+    "source_filename": "G2_5rPbUDNA_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.024875,
+    "max_gt": 150.0,
+    "latest_gt_start": 144.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-e16a460fbafc26903ac15d878ed7ebac07e97ce6a70fef07b83a2ff3e683eac9",
+    "source_filename": "GZi8Gl6teBk_360.0_510.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.024875,
+    "max_gt": 130.0,
+    "latest_gt_start": 128.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-b7d7b46ee5eef42800fb1d2041da20807a0ac0991114ea60178c07edd6891e76",
+    "source_filename": "Gk0eUHgITcw_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.024875,
+    "max_gt": 104.0,
+    "latest_gt_start": 90.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-e0ff35aab3521d7c6d48cb507129298a4321804a667b1c20cd86747907a8f852",
+    "source_filename": "H5PB7Ac49EQ_510.0_660.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016683,
+    "max_gt": 150.0,
+    "latest_gt_start": 148.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-db9da5b87c6610a0c85882540763198585a5a65f423990a3811952c27cd2908d",
+    "source_filename": "Hdfmhdj3Efg_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 150.0,
+    "latest_gt_start": 144.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-9df8154e021e2b8e34a1fc5277514a29284adc5d3f67c1d9f61cde8539045a62",
+    "source_filename": "IG7PxoN3Zao_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 146.0,
+    "latest_gt_start": 142.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-ede55b4a4003e3bb994b93ceb5a1dd92f22f40dac6b69b41f6d172807c3d294a",
+    "source_filename": "KUs4hm2MQ8o_360.0_510.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.024875,
+    "max_gt": 120.0,
+    "latest_gt_start": 106.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-2fa8fbb3b7c060084dde6ceb04e93b66173e0a2dff6ce6780fd86164fe57ddd2",
+    "source_filename": "LmnfadjuaE8_360.0_510.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.024875,
+    "max_gt": 36.0,
+    "latest_gt_start": 0.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-a31031d786d436631e5e3b71e83a30bb2399a88ad524eaddbd7c96d2729cb8b0",
+    "source_filename": "MOThH7E8fzc_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 150.0,
+    "latest_gt_start": 96.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-0f0b759f4b9716ede86430325a3829cc9802e1ae78e4d5fb9c9cb67bdc6cb20d",
+    "source_filename": "Pdrc545bIl4_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 82.0,
+    "latest_gt_start": 76.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-d4ae217a7ee02b602e9621fe9f9b91f9e5ba5315875d047c42e3cee887f394da",
+    "source_filename": "QxP1p3EzOks_210.0_360.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 150.0,
+    "latest_gt_start": 148.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-d0934dfd9280482f554b9b76948a11ed0b4b4ab603ba535c79c4c5312e3f9c63",
+    "source_filename": "RLClUPuho6A_210.0_360.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 150.0,
+    "latest_gt_start": 120.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-49d9771384dce10f6671e821d9bd76c8a6d7612adbb10e623bee3f75799d7489",
+    "source_filename": "TwtZ8oinQck_210.0_360.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 150.0,
+    "latest_gt_start": 0.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-75e2995fb8b3ec25a51512ed8f2f866883cae29c4be71baeddaf2cb87f3d785f",
+    "source_filename": "TxEQVmbuW3c_210.0_360.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 148.0,
+    "latest_gt_start": 146.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-dfe7e7678658ff115ca1f2218f624d8bdf50990385320adcd80423ded1bfe7df",
+    "source_filename": "a13cXTeCius_210.0_360.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 32.0,
+    "latest_gt_start": 26.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-45015ad095c4032f1f02166c68e681b214ba8cf342e97449faa349d8d8033c7d",
+    "source_filename": "bUa-0ptWL5M_360.0_510.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 88.0,
+    "latest_gt_start": 8.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-5f05e9944ac6644bf4bab31f75455c6d47840ca7982e7af49f8a35f81a99aea9",
+    "source_filename": "eCvMNgspKxc_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.024875,
+    "max_gt": 140.0,
+    "latest_gt_start": 90.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-87b310b5e2cce967c005131ba21da2e4ca197e29544184a427c7e36703abd67e",
+    "source_filename": "eI6UlnWm3CQ_210.0_360.0.mp4",
+    "media_duration": 122.97,
+    "card_duration": 124.0,
+    "max_gt": 110.0,
+    "latest_gt_start": 88.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-738a3c6b8ec2c348749629a9c1e0a4a35d4226146a9296fd306c1e2efa97c458",
+    "source_filename": "g66Aac0IZnI_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 150.0,
+    "latest_gt_start": 142.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-314e407291b165ae187618bb4a902ea1fadc32bc5e45d687fab01c2251a5c79e",
+    "source_filename": "hfJvu-roZGQ_360.0_510.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.020096,
+    "max_gt": 132.0,
+    "latest_gt_start": 128.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-28a0425db312f22130d46862728c5745528a1342260703e37dac9e1c4d5a3857",
+    "source_filename": "i9scCMPwu8I_360.0_510.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 138.0,
+    "latest_gt_start": 118.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-8e43a67cc671bba1a4368ee4567f32618b66ede42a6ae5790c4cc8e34e64bd04",
+    "source_filename": "itUvi4O0CuU_210.0_360.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 114.0,
+    "latest_gt_start": 30.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-45d560428840f204326bcaf95afe87b071697a5fd0959c4befe203d8288f8b02",
+    "source_filename": "j7g-XYX5FRc_210.0_360.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 64.0,
+    "latest_gt_start": 52.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-f83c92ac5219943694c91749a281b95311935e855ba94c1d0c11e0c835c69e3d",
+    "source_filename": "jqfCtEdMIfY_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 88.0,
+    "latest_gt_start": 62.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-cd22e0e65cecbca387572be673b6bd7fd706e2f3ac0f07291d1ca3a770c8e7a8",
+    "source_filename": "kM_8DQ-iJcU_660.0_810.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 90.0,
+    "latest_gt_start": 82.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-66b4a50dd55bed0b81fe78081aadf79fb4f235f35cf49b9df2789b9ae0a734e7",
+    "source_filename": "l6aGqD9b53w_210.0_360.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016683,
+    "max_gt": 94.0,
+    "latest_gt_start": 92.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-09c732689050035435a2b16093cc9d044a38d3f52569fddf6996fe22e77d68ae",
+    "source_filename": "mGrtBavobAU_360.0_510.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 144.0,
+    "latest_gt_start": 140.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-fd22cfd171d141131e908cd85b91644137b0c04c1aa3d1cbbb524f7dd79e561e",
+    "source_filename": "oN4XuLnG7Gw_210.0_360.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 114.0,
+    "latest_gt_start": 96.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-6858b3733af911cbb95be93fb80f05f3788f2a0ebd201a66b544443dfdca0592",
+    "source_filename": "oZ2fKRV6Ci8_360.0_510.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 150.0,
+    "latest_gt_start": 148.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-f8beb55a5f42cdb4d9d89ed06f9c99853197ee23c1da724484df5d77912dbe11",
+    "source_filename": "r62uMwPmBK0_510.0_660.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 150.0,
+    "latest_gt_start": 138.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-69c93cbffb18f9a748df11984712ac93e17df4c144e13a945a24674ef76c085d",
+    "source_filename": "sCyPK9TZN6A_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 150.0,
+    "latest_gt_start": 90.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-6588445ac7b0f0fd98e14718fde4c968437713522fbc31349c847eaec539c995",
+    "source_filename": "srP7RFVdjWc_210.0_360.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 112.0,
+    "latest_gt_start": 96.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-f2fb51c43a6f2b60cd0dd71416f4cd3d0ece0795f81a26ea0635590021f88e4c",
+    "source_filename": "tEaxKRDdYMc_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 140.0,
+    "latest_gt_start": 136.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-8c6efd0f6200df0334136a2cd047976f2176fb564421f3f9effd21d89833e5c7",
+    "source_filename": "u5zzeSEJ0Ak_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 150.0,
+    "latest_gt_start": 138.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-85c8278624432f51043d3976495bf3a8a2294cf671293c94112bb1d2d36772c6",
+    "source_filename": "utW1ItcMeJw_360.0_510.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 68.0,
+    "latest_gt_start": 58.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-3b8fee228c7d417265868c061160452b8e231d9dcce48959d2e8a340af15989d",
+    "source_filename": "x6QkZM27EVw_60.0_210.0.mp4",
+    "media_duration": 150.0,
+    "card_duration": 150.0,
+    "max_gt": 80.0,
+    "latest_gt_start": 60.0
+  },
+  {
+    "asset_id": "qvhighlights-sha256-3a52421c276de65c63103b7a725d333b4533826cec78b1f3916cca58024ef61d",
+    "source_filename": "xGWnyxWo4sk_60.0_210.0.mp4",
+    "media_duration": 150.02,
+    "card_duration": 150.016533,
+    "max_gt": 148.0,
+    "latest_gt_start": 146.0
+  }
+]

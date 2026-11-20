@@ -1,0 +1,8 @@
+{
+  "only_changed_function": "acquire_lock",
+  "reason": "Handle Windows locked-byte contention without reading the locked byte",
+  "evaluation_ast_unchanged": true,
+  "executed_source": "provenance/evaluate_sphere-start.py",
+  "executed_sha256": "3feb8198a0d0fb206dd29ddc0d07cef4f0b2686515917643ddc276f3602b18ba",
+  "current_sha256": "2f1c99819103b2b9e276ceb10de56f072215e59ae4e4a8292d20fc99724849a2"
+}

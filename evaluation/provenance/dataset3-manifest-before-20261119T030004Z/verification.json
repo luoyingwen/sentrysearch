@@ -1,0 +1,37 @@
+{
+  "query_count": 901,
+  "video_count": 74,
+  "enriched_queries": 163,
+  "original_only_queries": 738,
+  "changed_queries": 69,
+  "new_query_video_pairs": 96,
+  "added_hit_count": 124,
+  "baseline_hit_count_for_videos": 1188,
+  "result_hit_count": 1312,
+  "original_queries_and_hits_preserved": true,
+  "new_pairs_by_grain": {
+    "asset": 52,
+    "moment": 44
+  },
+  "benchmark_version": "sphere-benchmark-20261116-r01",
+  "card_set_version": "sphere-cards-20261116-r01",
+  "baseline_version": "sphere-benchmark-20261105-r02",
+  "agreement_version": "sphere-benchmark-20261112-r01",
+  "pairs_fully_labeled": 277,
+  "pairs_with_agreed_interval": 96,
+  "pairs_without_agreed_interval": 181,
+  "videos_with_agreed_hit": 32,
+  "queries_with_agreed_hit": 69,
+  "sampling_fps": 2,
+  "boundary_8fps_applied": false,
+  "human_review": "not performed",
+  "pending_videos": [
+    "040"
+  ],
+  "file_sha256": {
+    "card-set.json": "53b9816f8fd83bd13b12fdd56732dd616c59ea02ccb9f53283b3420e64a65360",
+    "benchmark.json": "0858e814f4a267fdb9943e7aafb0dc8de2082d316a0a277c1001f0d26e2f913b",
+    "media.json": "7f14fcea62933a74c2e3ed9499bdbfbd3b63c0ab29dfab29015aa8baff457ce4",
+    "additions.json": "c881be6741090b38305120e45664a82e24de8739849fe49ae6a733b2085e9f71"
+  }
+}

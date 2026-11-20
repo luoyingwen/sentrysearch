@@ -1,0 +1,458 @@
+{
+  "checked_at": "2026-11-19T02:48:07.771270+00:00",
+  "method": "independent standard-library ZIP decompression; byte counting and SHA-256 of each uncompressed video",
+  "manifest": "C:\\Users\\luoyw\\work\\lab\\Sphere\\sphere-eval\\datasets\\releases\\sphere-public-tsv360-cross-video-agreement-full-queries-20261116-r01\\media.json",
+  "manifest_sha256": "6c24e589050f6f08ed7c7f7333866b2813dec87d2d2127d7dd84ec8f0287dbd1",
+  "manifest_expected_sha256": "7f14fcea62933a74c2e3ed9499bdbfbd3b63c0ab29dfab29015aa8baff457ce4",
+  "manifest_matches_release_verification": false,
+  "manifest_lf_sha256": "7f14fcea62933a74c2e3ed9499bdbfbd3b63c0ab29dfab29015aa8baff457ce4",
+  "manifest_matches_release_after_crlf_to_lf": true,
+  "release_file_checks": [
+    {
+      "file": "card-set.json",
+      "expected_sha256": "53b9816f8fd83bd13b12fdd56732dd616c59ea02ccb9f53283b3420e64a65360",
+      "raw_sha256": "ef81aa8a40a73119a3e4eeb71747479bf7276972870c26167a96524d85f9a5e8",
+      "lf_sha256": "53b9816f8fd83bd13b12fdd56732dd616c59ea02ccb9f53283b3420e64a65360",
+      "matches_after_crlf_to_lf": true
+    },
+    {
+      "file": "benchmark.json",
+      "expected_sha256": "0858e814f4a267fdb9943e7aafb0dc8de2082d316a0a277c1001f0d26e2f913b",
+      "raw_sha256": "a4292c3555688670413933eb77a53524d617a6dd6580bf28036c41a30b00636b",
+      "lf_sha256": "0858e814f4a267fdb9943e7aafb0dc8de2082d316a0a277c1001f0d26e2f913b",
+      "matches_after_crlf_to_lf": true
+    },
+    {
+      "file": "media.json",
+      "expected_sha256": "7f14fcea62933a74c2e3ed9499bdbfbd3b63c0ab29dfab29015aa8baff457ce4",
+      "raw_sha256": "6c24e589050f6f08ed7c7f7333866b2813dec87d2d2127d7dd84ec8f0287dbd1",
+      "lf_sha256": "7f14fcea62933a74c2e3ed9499bdbfbd3b63c0ab29dfab29015aa8baff457ce4",
+      "matches_after_crlf_to_lf": true
+    },
+    {
+      "file": "additions.json",
+      "expected_sha256": "c881be6741090b38305120e45664a82e24de8739849fe49ae6a733b2085e9f71",
+      "raw_sha256": "dc499ad723951eb45a54194cbe526f4362ac36ee328a2355b22837e98d6fd79d",
+      "lf_sha256": "c881be6741090b38305120e45664a82e24de8739849fe49ae6a733b2085e9f71",
+      "matches_after_crlf_to_lf": true
+    }
+  ],
+  "json_line_endings_note": "All four release JSON files match published hashes after CRLF-to-LF conversion; video bytes are hashed without any normalization.",
+  "archive": "D:\\work\\Sphere\\benchmark_videos\\videos_fix_format_74_cross_video_agreement.zip",
+  "archive_size": 3824150471,
+  "archive_sha256": "c451b48ec4a029dea6515b3d85da3ed0b5981f0faff4bb033017cb19b980d953",
+  "archive_matches_previous_evaluation": true,
+  "expected_video_count": 74,
+  "archive_video_count": 74,
+  "exact_match_count": 72,
+  "mismatch_count": 2,
+  "mismatches": [
+    {
+      "expected": {
+        "asset_id": "tsv360-sha256-b068562826dca9e6e7fce4564eac8e95cf3ba971aba547d998fb6465373961f9",
+        "path": "tsv360/102.mp4",
+        "size": 44706232,
+        "sha256": "b068562826dca9e6e7fce4564eac8e95cf3ba971aba547d998fb6465373961f9",
+        "kind": "original"
+      },
+      "hash_matches_anywhere_in_zip": 0,
+      "filename_candidates": [
+        {
+          "member": "videos_fix_format_74_cross_video_agreement/102_LL360.mp4",
+          "size": 50590296,
+          "sha256": "f9461c1c421a8e0149cdd08c99cc88d5fa631af58d9d76b5e7216d15bd096623"
+        }
+      ]
+    },
+    {
+      "expected": {
+        "asset_id": "tsv360-sha256-6fe647a223bc552df4f051f365503049c7f9d83213b86337dfe9e6d5cba9c2b2",
+        "path": "tsv360/170.mp4",
+        "size": 120672301,
+        "sha256": "6fe647a223bc552df4f051f365503049c7f9d83213b86337dfe9e6d5cba9c2b2",
+        "kind": "original"
+      },
+      "hash_matches_anywhere_in_zip": 0,
+      "filename_candidates": [
+        {
+          "member": "videos_fix_format_74_cross_video_agreement/170_LL360.mp4",
+          "size": 52508903,
+          "sha256": "ef9086bb9ec674f56bd3809aa22765cfdb18a43856241cb0930bf46805db9981"
+        }
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/003_LL360.mp4",
+      "size": 55646406,
+      "sha256": "afb44a84a0ea40c7ff41cd20c1fcb4f3a045b46756ac35184a0abaf464538b08"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/004_LL360.mp4",
+      "size": 65945061,
+      "sha256": "ab020b3db8d5212133c40fd6a7db29fb81fc1749525aec49e70fa60f205208bb"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/007_LL360.mp4",
+      "size": 52153366,
+      "sha256": "90a21fa5482221559ad4ee4eb40218941fac182beb17bb93d38249282061b24f"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/011_LL360.mp4",
+      "size": 72743651,
+      "sha256": "344d4cf48c2f8010422bda96dc517b98bd0144b45a42389853debe280408581a"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/013_LL360.mp4",
+      "size": 26413526,
+      "sha256": "b984b824babcd1702a0da49c70f2ba0ad7ca0377f2e4184249589f0e9b817873"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/014_LL360.mp4",
+      "size": 61682658,
+      "sha256": "c1a2135ba3bdc803d0ffae2a4997ff31043095812ec08485b78df10f1af20214"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/017_LL360.mp4",
+      "size": 53810881,
+      "sha256": "c286ed06b5d9764f2aef1f95cd0a3f3ae50e257edc7fa6bb9895a9de08b727b3"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/019_LL360.mp4",
+      "size": 42157784,
+      "sha256": "04a6466a677d83c5ff025e46bf25d3054b7a68ac49f545ee0b922675292b5813"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/022_LL360.mp4",
+      "size": 49117872,
+      "sha256": "ab3ca5636f6585c6731d748e7ecc834faab710d9ccc20d9bdbf638d069f7428c"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/026_LL360.mp4",
+      "size": 19587148,
+      "sha256": "87b5986c3f985d40c5a558d43c81d68136c6ac70dba2089b11b45d26f3e28864"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/031_LL360.mp4",
+      "size": 26743781,
+      "sha256": "e8182198a8b30623efe42067bf26149b8805e60d608a4cac447b25df611ab6a9"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/034_LL360.mp4",
+      "size": 31242499,
+      "sha256": "6fe55b690f7eda8107d149655c69b741b4f4300eb6b72a2a979262ea8d275664"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/042_LL360.mp4",
+      "size": 27035385,
+      "sha256": "b227a7a2649a76d75a61ed29f49cfd2800bbe4c50d95e823e569cf8ebb4b6038"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/044_LL360.mp4",
+      "size": 118260827,
+      "sha256": "6b907ab6da3e4056c3bc314a2a0827d2692ec5ab80334df718175fe9ba42028f"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/052_LL360.mp4",
+      "size": 14453593,
+      "sha256": "f596bb5b01a04a7d5424f60288b8cd0b95c817a3447545e899118ae50a367fa7"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/053_LL360.mp4",
+      "size": 66977982,
+      "sha256": "b0ae258aaa83786ea60d6fdeafe6c33ebebf7abefc70a093abb2125a6c138940"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/054_LL360.mp4",
+      "size": 52240347,
+      "sha256": "94a6a5fa7c3405c12631e81606d861d525b74e1e8c879bf2bc0a9099f4791cdb"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/055_LL360.mp4",
+      "size": 58048767,
+      "sha256": "0ae9ffd3e4af35c1ac1b85217c5ce2ad92bddf008e58cc0926f2f7e71f426fbf"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/057_LL360.mp4",
+      "size": 56634063,
+      "sha256": "124e13255390f8a5a0bf81ce953a6bafc7ba7043130779dfe03ff3fdc6e52cf1"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/058_LL360.mp4",
+      "size": 35137309,
+      "sha256": "fc221ad3478b5148f21ec4832272de47f323b29262915d7bda9a47eb55b5c7ec"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/059_LL360.mp4",
+      "size": 42482164,
+      "sha256": "e733c4ed7839107318e27531eef24e99a2d8cda1df5249154dcc1f22777facf4"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/060_LL360.mp4",
+      "size": 36485329,
+      "sha256": "a4a3925664c10378b84c9fe29a53b9cda39d50066a3276eaa5ef5f4d6aa64202"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/062_LL360.mp4",
+      "size": 112118564,
+      "sha256": "834cc5f2b4e6e25e7630a1a66b7743ce607f477b81cbce0579ce2815a578c0cd"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/064_LL360.mp4",
+      "size": 16866805,
+      "sha256": "0026978690c91467cb703903a6bb6987364cc8df43a66ca18b8bf029907bae35"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/065_LL360.mp4",
+      "size": 21163833,
+      "sha256": "b7442850a5790f930f7bdf06f1e68707ae98f51061e6b057525bd709bbe0e158"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/066_LL360.mp4",
+      "size": 43403764,
+      "sha256": "0ae70f2e62daf65a41d7de5c6f2932e607d8cb3818f233697261dc2cb3df24ee"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/068_LL360.mp4",
+      "size": 76890093,
+      "sha256": "ef0ed0a2891a3c94ae5233887cfb09a33e91e6960be6ed09ab024325840d662f"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/070_LL360.mp4",
+      "size": 29247880,
+      "sha256": "1c4199ee826adc43183ff06a3f17476887928346245b8ab8e124900afca20e77"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/072_LL360.mp4",
+      "size": 39831369,
+      "sha256": "4eda1422bd8ab5125ee98b93128face90313b1164518d0aba1bb92b73d47bf24"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/077_LL360.mp4",
+      "size": 54457431,
+      "sha256": "2d92f29a3a6afbf9c343a73ced874f14f4199ac270a494dbc9de3821849bb1e4"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/079_LL360.mp4",
+      "size": 26815902,
+      "sha256": "c46574523f98cf3da934e3058e8e98327d0567ef166294f45aa18a145d2a653c"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/094_LL360.mp4",
+      "size": 25016494,
+      "sha256": "60821cc420e6a35b6c5c98f46a4477b16b2651bd50bbf6a8fb693db87fc03dbc"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/095_LL360.mp4",
+      "size": 45793444,
+      "sha256": "782cb018eb4442e7096f9b47ba68d69c4d4fb82dfce87136ad9f7606eb2746a8"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/096_LL360.mp4",
+      "size": 24716375,
+      "sha256": "f0362536099c63f57a2dca676235969c2dec804a0f46ab812e2ba14a7e5e7539"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/101_LL360.mp4",
+      "size": 35007460,
+      "sha256": "04d05514e3e58b19c51baa748d49814f2c24b84b662eb42b173be014fac53cdf"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/102_LL360.mp4",
+      "size": 50590296,
+      "sha256": "f9461c1c421a8e0149cdd08c99cc88d5fa631af58d9d76b5e7216d15bd096623"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/103_LL360.mp4",
+      "size": 31980971,
+      "sha256": "5facdfc8c53bd076199bc805dac5ef93ab84037843ba8d86a131623a3e3237e7"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/104_LL360.mp4",
+      "size": 21310426,
+      "sha256": "ade4a06e1410272d9c0049fd9d4521605ee8399cfd5aaa7c86eb0c854b83d76e"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/105_LL360.mp4",
+      "size": 74662860,
+      "sha256": "626ac95d402898b6929a50a9b7e163107c9dbe1a29e4a15a8b99382900158903"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/109_LL360.mp4",
+      "size": 32976690,
+      "sha256": "c46d359924f136ca82d1b7fdc285ba8efde488149e239e913945e79676ebad99"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/111_LL360.mp4",
+      "size": 85158047,
+      "sha256": "5f63704d696f202fc9c72f7c17239e3f43af51d8954fe0ae26e0547c72e9b194"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/114_LL360.mp4",
+      "size": 79554766,
+      "sha256": "b6a5e68ef38564d2425b06ede7256522684138c64136b1f377b1def1dc07de35"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/122_LL360.mp4",
+      "size": 49204471,
+      "sha256": "dd7d79ca15eff30e0e268f48b4bcbfe669a8497fac645ee22157a5ff20ad6def"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/123_LL360.mp4",
+      "size": 47563044,
+      "sha256": "cf7ff024c52fa1cf8f3462d4f1a068d886439724992502eef0046690af9ed769"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/126_LL360.mp4",
+      "size": 66742210,
+      "sha256": "c09295a9b4f5c370f8592c5ed078dec4ed9dd400bd9e8f0954328f733caf6b39"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/127_LL360.mp4",
+      "size": 28027860,
+      "sha256": "ac4bbde8cea50cf4e3d4a6eb719e393377b8c2a4c3079c8e0e8ca5d5d0d6eff5"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/128_LL360.mp4",
+      "size": 152566845,
+      "sha256": "f5697eda736a69515314f8ff87e283365fae334f35b59a15f3ebf7d2451e1e6e"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/131_LL360.mp4",
+      "size": 59166391,
+      "sha256": "d25f70d710ba5ec527a4b2a3b62b16b8f4d55dda5e3553741067ca0af6ebb1a4"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/132_LL360.mp4",
+      "size": 73657136,
+      "sha256": "3dce7a9aabb766bf25c933d24a4b73f270f93e6ca83d20cccc809c31411fd3a7"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/133_LL360.mp4",
+      "size": 39104068,
+      "sha256": "e3ac155b6ded25c9094aa8c3ab7d81931b9603bff7ce6ab0035e514bd0b35731"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/134_LL360.mp4",
+      "size": 46580686,
+      "sha256": "48ea3bec4f12f466ba8c7dcfbec8f5f4136bf80a3658d3e03ba946fde521ed79"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/138_LL360.mp4",
+      "size": 65375251,
+      "sha256": "2351b1c7cdc0926b4512f42bc34aba3acafd87a87236cd37dc600a19480a6db2"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/139_LL360.mp4",
+      "size": 56157497,
+      "sha256": "44c2cf30f73ac2acfd6377fd437e8493a4a27e114882e38733fad94ffbb09cb8"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/141_LL360.mp4",
+      "size": 121311103,
+      "sha256": "18b4fec3d329286c84c6a6aac8576f9f3fda3ea5daa0f1811534f3c014981248"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/144_LL360.mp4",
+      "size": 71290114,
+      "sha256": "dd9ff223a3e6c7f6bb0762f6aed15e8e97e34f750593fda5e300baa8ad07f98a"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/145_LL360.mp4",
+      "size": 51356903,
+      "sha256": "e0d82df4ad949cb8d5d16bae32e6c9205f26738d42b324786e612a0b360426b4"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/146_LL360.mp4",
+      "size": 57059499,
+      "sha256": "947936e04c20c1ce039f349e96ac5e198631e36e1ff3e53e118661adc21038ed"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/147_LL360.mp4",
+      "size": 43948776,
+      "sha256": "942c1d624ab0cccd399986067f8f40e133ec34d5bd4deba16db32230dcf9df2e"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/148_LL360.mp4",
+      "size": 36246683,
+      "sha256": "03eff934e532890d47a36f684f29a1675803121ba80bcd07f8542de070c08560"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/149_LL360.mp4",
+      "size": 59400975,
+      "sha256": "6718be16b369c3a0c9d04033c2137c4429b5dc2552d940cf736dc63dcb888c54"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/151_LL360.mp4",
+      "size": 57130314,
+      "sha256": "d9a6abdf194a09c42aa37b7faca53044700014a88ce2fbd979eb90c79e4ac78e"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/152_LL360.mp4",
+      "size": 41233889,
+      "sha256": "b07d79f51affc1ec2e31a213d3e6ff6af9252028cb1a11ab53a011e6e26dc3e5"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/154_LL360.mp4",
+      "size": 33829190,
+      "sha256": "6a5492a73081a20e71bf0b21698b2bb2c44f8ca9e4ae89c5525939db29d47df4"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/156_LL360.mp4",
+      "size": 52217482,
+      "sha256": "6f55ab671f0f204493604e472c397bcee11472d61c6a0662114d24bb93da0434"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/157_LL360.mp4",
+      "size": 73185283,
+      "sha256": "55d97b8e31684c620dd3cd24b24ff8ade192f648ee4de6f9f6a90dccf33f90af"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/159_LL360.mp4",
+      "size": 31659037,
+      "sha256": "c0ff1f0c813d759d23f4e6937bce338a5840e62b267aad670bc86d236d81622d"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/161_LL360.mp4",
+      "size": 56104892,
+      "sha256": "3f9219348307a5c20f3c227d667d102f4c71ee16532a6cd51ec2ef1b098424ec"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/162_LL360.mp4",
+      "size": 31153295,
+      "sha256": "a4337c1bdb10e95ce80c335984c4e5c262d54e36d75ab37501640f51b993427b"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/163_LL360.mp4",
+      "size": 93087980,
+      "sha256": "398d2534cb53f1e41310587b3d22076d31261974238012b2bc831f4934a237ae"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/164_LL360.mp4",
+      "size": 50898184,
+      "sha256": "014c718e992037460cd82fd4135afd2887e9e0f21dfed5082b88ed09d49d5968"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/168_LL360.mp4",
+      "size": 33460938,
+      "sha256": "1d18084c66f59f1a98e72930e8c4f2234292453ce4d794c3e18f603d83e54be6"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/169_LL360.mp4",
+      "size": 49444421,
+      "sha256": "fbdbc10f1769ef92b85c48054d6bd87cff5ed0ce0aa3a4375b96aee2aea1036b"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/170_LL360.mp4",
+      "size": 52508903,
+      "sha256": "ef9086bb9ec674f56bd3809aa22765cfdb18a43856241cb0930bf46805db9981"
+    },
+    {
+      "member": "videos_fix_format_74_cross_video_agreement/171_LL360.mp4",
+      "size": 57607583,
+      "sha256": "ec5545a5e2f4ab27d1d6113bcf5463fae6e20577769a8ef7258737358a25e0f6"
+    }
+  ],
+  "limitation": "Byte differences alone do not establish visual or temporal mismatch; the evaluator uses strict media identity as its skip policy."
+}

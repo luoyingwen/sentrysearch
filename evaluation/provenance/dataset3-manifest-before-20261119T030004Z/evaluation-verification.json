@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "queries_checked": 382,
+  "completed_datasets": 3,
+  "skipped_datasets": 1,
+  "reference_scores_recomputed": true,
+  "original_queries_and_gt_unchanged": true,
+  "active_directory_empty": true,
+  "completion_fingerprint_matches": true,
+  "verified_at": "2026-11-18T16:06:49.349065+00:00"
+}
