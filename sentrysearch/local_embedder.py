@@ -309,7 +309,7 @@ class LocalEmbedder(BaseEmbedder):
                 "content": [
                     {
                         "type": "video",
-                        "video": "file://" + str(chunk_path.resolve()),
+                        "video": str(chunk_path.resolve()) if os.name == "nt" else "file://" + str(chunk_path.resolve()),
                         "fps": 1.0,
                         "max_frames": 32,
                     },
