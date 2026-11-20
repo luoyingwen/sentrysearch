@@ -15,3 +15,8 @@ coverage.xml
 .coverage
 
 CLAUDE.md
+
+.venv/
+evaluation/active/
+evaluation/.run.lock
+evaluation/download-cache/

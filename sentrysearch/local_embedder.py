@@ -309,7 +309,10 @@ class LocalEmbedder(BaseEmbedder):
                 "content": [
                     {
                         "type": "video",
-                        "video": "file://" + str(chunk_path.resolve()),
+                        # Native paths work with all qwen-vl-utils readers.
+                        # file://C:\... is not a valid Windows FFmpeg path;
+                        # torchvision/PyAV silently returns no frames for it.
+                        "video": str(chunk_path.resolve()),
                         "fps": 1.0,
                         "max_frames": 32,
                     },

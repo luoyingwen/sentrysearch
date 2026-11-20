@@ -70,6 +70,39 @@ class TestLocalEmbedderConstruction:
         assert embedder._quantize is False
 
 
+def test_local_video_decodes_with_native_path(tmp_path, monkeypatch):
+    """Real PyAV decoding catches malformed Windows file:// drive paths."""
+    import subprocess
+    from types import SimpleNamespace
+
+    torch = pytest.importorskip("torch")
+    pytest.importorskip("qwen_vl_utils")
+    from qwen_vl_utils import vision_process
+    from sentrysearch.chunker import _get_ffmpeg_executable
+
+    path = tmp_path / "local video.mp4"
+    subprocess.run([_get_ffmpeg_executable(), "-y", "-f", "lavfi", "-i",
+                    "testsrc=size=64x64:rate=5:duration=2", "-pix_fmt", "yuv420p", str(path)],
+                   capture_output=True, check=True)
+    monkeypatch.setattr(vision_process, "FORCE_QWENVL_VIDEO_READER", "torchvision")
+    vision_process.get_video_reader_backend.cache_clear()
+    embedder = LocalEmbedder()
+    monkeypatch.setattr(embedder, "_load_model", lambda: None)
+    embedder._model = MagicMock()
+    embedder._model.device = "cpu"
+    embedder._model.return_value = SimpleNamespace(last_hidden_state=torch.ones((1, 1, 768)))
+    embedder._processor = MagicMock()
+    embedder._processor.return_value = {"attention_mask": torch.ones((1, 1), dtype=torch.long)}
+    try:
+        vector = embedder.embed_video_chunk(str(path))
+        inputs = embedder._processor.call_args.kwargs
+        assert inputs["videos"][0].shape[0] >= 2
+        assert inputs["video_metadata"][0]["fps"] == 5
+        assert len(vector) == 768
+    finally:
+        vision_process.get_video_reader_backend.cache_clear()
+
+
 class TestLocalEmbedderLoadModel:
     def test_missing_torch_raises_local_model_error(self):
         embedder = LocalEmbedder()
